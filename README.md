@@ -3,7 +3,7 @@
 
 
 ```
-parcel build src/index.html --no-minify --public-url ./
+parcel build src/index.html
 
 ```
 #### build命令
