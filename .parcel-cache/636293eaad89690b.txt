@@ -1,0 +1,23 @@
+22
+42C:\Users\luo\Desktop\nav-demo\package.json132906844931957245 0
+40C:\Users\luo\Desktop\nav-demo\.gitignore132906844375291722 0
+34C:\Users\luo\Desktop\nav-demo\dist132906883487114904 1
+33C:\Users\luo\Desktop\nav-demo\src132906844376072782 1
+41C:\Users\luo\Desktop\nav-demo\src\main.js132906873257428544 0
+47C:\Users\luo\Desktop\nav-demo\package-lock.json132906844375760356 0
+39C:\Users\luo\Desktop\nav-demo\README.md132906844375291722 0
+51C:\Users\luo\Desktop\nav-demo\dist\main.75ad1201.js132906844375447941 0
+37C:\Users\luo\Desktop\nav-demo\src\img132906844375916604 1
+45C:\Users\luo\Desktop\nav-demo\dist\index.html132906855623575780 0
+57C:\Users\luo\Desktop\nav-demo\dist\index.2cdaf7bc.css.map132906883486945352 0
+44C:\Users\luo\Desktop\nav-demo\src\index.html132906855611465533 0
+43C:\Users\luo\Desktop\nav-demo\src\style.css132906883485706920 0
+44C:\Users\luo\Desktop\nav-demo\src\img\bi.png132906844375916604 0
+50C:\Users\luo\Desktop\nav-demo\dist\bi.732ca5b1.png132906844375447941 0
+50C:\Users\luo\Desktop\nav-demo\dist\bi.87e7f1c7.png132906852749233158 0
+53C:\Users\luo\Desktop\nav-demo\dist\index.2cdaf7bc.css132906883486875545 0
+52C:\Users\luo\Desktop\nav-demo\dist\index.de158e3a.js132906873258936731 0
+56C:\Users\luo\Desktop\nav-demo\dist\index.de158e3a.js.map132906873258936731 0
+55C:\Users\luo\Desktop\nav-demo\dist\main.75ad1201.js.map132906844375604145 0
+53C:\Users\luo\Desktop\nav-demo\dist\style.74f7eaff.css132906844375604145 0
+57C:\Users\luo\Desktop\nav-demo\dist\style.74f7eaff.css.map132906844375760356 0

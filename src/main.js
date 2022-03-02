@@ -2,10 +2,7 @@ const $siteList = $(".siteList")
 const $lastLi = $siteList.find("li.last")
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
-const hashMap = xObject || [
-    { logo: 'A', url: 'https://www.acfun.cn/' },
-    { logo: 'B', url: 'https://www.bilibili.com/' },
-]
+const hashMap = xObject || []
 const simplifyUrl = (url) => {
     return url.replace('https://', '')
         .replace('http://', '')
@@ -18,7 +15,8 @@ const render = () => {
     hashMap.forEach((node, index) => {
         const $li = $(`<li>
             <div class="site">
-                <div class="logo">${node.logo}</div>
+                <div class="logo"><img src="https://www.google.com/s2/favicons?sz=64&domain=${simplifyUrl(node.url)}"/>
+                </div>
                 
                 <div class="link">${simplifyUrl(node.url)}</div>
 
@@ -46,6 +44,7 @@ const render = () => {
 render()
 
 $('.addButton').on('click', () => {
+  console.log(1)
     let url = window.prompt('请问你要添加的网址是啥？')
     console.log(url)
     if (!(url.indexOf('http') === 0)) {
@@ -53,7 +52,7 @@ $('.addButton').on('click', () => {
 
     }
     hashMap.push({
-        logo: simplifyUrl(url)[0].toUpperCase(),
+        // logo: '',
         url: url
 
     })
