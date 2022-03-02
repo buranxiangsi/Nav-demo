@@ -15,7 +15,7 @@ const render = () => {
     hashMap.forEach((node, index) => {
         const $li = $(`<li>
             <div class="site">
-                <div class="logo"><img src="https://www.google.com/s2/favicons?sz=64&domain=${simplifyUrl(node.url)}||null"/>
+                <div class="logo"><img src="https://www.google.com/s2/favicons?sz=64&domain=${simplifyUrl(node.url)}"/>
                 </div>
                 
                 <div class="link">${simplifyUrl(node.url)}</div>
